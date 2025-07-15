@@ -1,0 +1,15 @@
+E:\Web Development\TaskInterv\FoodOrderingSolution\FoodOrdering.Application\bin\Debug\net8.0\FoodOrdering.Application.deps.json
+E:\Web Development\TaskInterv\FoodOrderingSolution\FoodOrdering.Application\bin\Debug\net8.0\FoodOrdering.Application.dll
+E:\Web Development\TaskInterv\FoodOrderingSolution\FoodOrdering.Application\bin\Debug\net8.0\FoodOrdering.Application.pdb
+E:\Web Development\TaskInterv\FoodOrderingSolution\FoodOrdering.Application\bin\Debug\net8.0\FoodOrdering.Domain.dll
+E:\Web Development\TaskInterv\FoodOrderingSolution\FoodOrdering.Application\bin\Debug\net8.0\FoodOrdering.Domain.pdb
+E:\Web Development\TaskInterv\FoodOrderingSolution\FoodOrdering.Application\obj\Debug\net8.0\FoodOrdering.Application.csproj.AssemblyReference.cache
+E:\Web Development\TaskInterv\FoodOrderingSolution\FoodOrdering.Application\obj\Debug\net8.0\FoodOrdering.Application.GeneratedMSBuildEditorConfig.editorconfig
+E:\Web Development\TaskInterv\FoodOrderingSolution\FoodOrdering.Application\obj\Debug\net8.0\FoodOrdering.Application.AssemblyInfoInputs.cache
+E:\Web Development\TaskInterv\FoodOrderingSolution\FoodOrdering.Application\obj\Debug\net8.0\FoodOrdering.Application.AssemblyInfo.cs
+E:\Web Development\TaskInterv\FoodOrderingSolution\FoodOrdering.Application\obj\Debug\net8.0\FoodOrdering.Application.csproj.CoreCompileInputs.cache
+E:\Web Development\TaskInterv\FoodOrderingSolution\FoodOrdering.Application\obj\Debug\net8.0\FoodOrde.8B331AD0.Up2Date
+E:\Web Development\TaskInterv\FoodOrderingSolution\FoodOrdering.Application\obj\Debug\net8.0\FoodOrdering.Application.dll
+E:\Web Development\TaskInterv\FoodOrderingSolution\FoodOrdering.Application\obj\Debug\net8.0\refint\FoodOrdering.Application.dll
+E:\Web Development\TaskInterv\FoodOrderingSolution\FoodOrdering.Application\obj\Debug\net8.0\FoodOrdering.Application.pdb
+E:\Web Development\TaskInterv\FoodOrderingSolution\FoodOrdering.Application\obj\Debug\net8.0\ref\FoodOrdering.Application.dll

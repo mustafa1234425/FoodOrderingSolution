@@ -1,0 +1,17 @@
+E:\Web Development\TaskInterv\FoodOrderingSolution\FoodOrdering.Infrastructure\bin\Debug\net8.0\FoodOrdering.Infrastructure.deps.json
+E:\Web Development\TaskInterv\FoodOrderingSolution\FoodOrdering.Infrastructure\bin\Debug\net8.0\FoodOrdering.Infrastructure.dll
+E:\Web Development\TaskInterv\FoodOrderingSolution\FoodOrdering.Infrastructure\bin\Debug\net8.0\FoodOrdering.Infrastructure.pdb
+E:\Web Development\TaskInterv\FoodOrderingSolution\FoodOrdering.Infrastructure\bin\Debug\net8.0\FoodOrdering.Application.dll
+E:\Web Development\TaskInterv\FoodOrderingSolution\FoodOrdering.Infrastructure\bin\Debug\net8.0\FoodOrdering.Domain.dll
+E:\Web Development\TaskInterv\FoodOrderingSolution\FoodOrdering.Infrastructure\bin\Debug\net8.0\FoodOrdering.Application.pdb
+E:\Web Development\TaskInterv\FoodOrderingSolution\FoodOrdering.Infrastructure\bin\Debug\net8.0\FoodOrdering.Domain.pdb
+E:\Web Development\TaskInterv\FoodOrderingSolution\FoodOrdering.Infrastructure\obj\Debug\net8.0\FoodOrdering.Infrastructure.csproj.AssemblyReference.cache
+E:\Web Development\TaskInterv\FoodOrderingSolution\FoodOrdering.Infrastructure\obj\Debug\net8.0\FoodOrdering.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+E:\Web Development\TaskInterv\FoodOrderingSolution\FoodOrdering.Infrastructure\obj\Debug\net8.0\FoodOrdering.Infrastructure.AssemblyInfoInputs.cache
+E:\Web Development\TaskInterv\FoodOrderingSolution\FoodOrdering.Infrastructure\obj\Debug\net8.0\FoodOrdering.Infrastructure.AssemblyInfo.cs
+E:\Web Development\TaskInterv\FoodOrderingSolution\FoodOrdering.Infrastructure\obj\Debug\net8.0\FoodOrdering.Infrastructure.csproj.CoreCompileInputs.cache
+E:\Web Development\TaskInterv\FoodOrderingSolution\FoodOrdering.Infrastructure\obj\Debug\net8.0\FoodOrde.62205CF7.Up2Date
+E:\Web Development\TaskInterv\FoodOrderingSolution\FoodOrdering.Infrastructure\obj\Debug\net8.0\FoodOrdering.Infrastructure.dll
+E:\Web Development\TaskInterv\FoodOrderingSolution\FoodOrdering.Infrastructure\obj\Debug\net8.0\refint\FoodOrdering.Infrastructure.dll
+E:\Web Development\TaskInterv\FoodOrderingSolution\FoodOrdering.Infrastructure\obj\Debug\net8.0\FoodOrdering.Infrastructure.pdb
+E:\Web Development\TaskInterv\FoodOrderingSolution\FoodOrdering.Infrastructure\obj\Debug\net8.0\ref\FoodOrdering.Infrastructure.dll
