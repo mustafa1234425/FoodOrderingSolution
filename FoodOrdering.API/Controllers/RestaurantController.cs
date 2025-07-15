@@ -15,7 +15,7 @@ namespace FoodOrdering.API.Controllers
             _restaurantService = restaurantService;
         }
 
-        // ✅ فلترة حسب المدينة والاسم
+  
         [HttpGet]
         public async Task<ActionResult<List<RestaurantDto>>> GetAll([FromQuery] int? cityId, [FromQuery] string? name)
         {
