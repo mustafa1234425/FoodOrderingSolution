@@ -9,8 +9,8 @@ public class UpdateOrderDto
     public int CustomerId { get; set; }
 
     [Required]
-    public DateTime OrderDate { get; set; }
+    public DateTime? OrderDate { get; set; }
 
     [Range(0.01, double.MaxValue)]
-    public decimal TotalAmount { get; set; }
+    public decimal TotalPrice { get; set; }
 }

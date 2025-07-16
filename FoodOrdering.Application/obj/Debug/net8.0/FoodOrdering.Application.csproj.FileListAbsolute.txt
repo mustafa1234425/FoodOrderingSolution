@@ -13,3 +13,4 @@ E:\Web Development\TaskInterv\FoodOrderingSolution\FoodOrdering.Application\obj\
 E:\Web Development\TaskInterv\FoodOrderingSolution\FoodOrdering.Application\obj\Debug\net8.0\refint\FoodOrdering.Application.dll
 E:\Web Development\TaskInterv\FoodOrderingSolution\FoodOrdering.Application\obj\Debug\net8.0\FoodOrdering.Application.pdb
 E:\Web Development\TaskInterv\FoodOrderingSolution\FoodOrdering.Application\obj\Debug\net8.0\ref\FoodOrdering.Application.dll
+E:\Web Development\TaskInterv\FoodOrderingSolution\FoodOrdering.Application\obj\Debug\net8.0\FoodOrdering.Application.sourcelink.json

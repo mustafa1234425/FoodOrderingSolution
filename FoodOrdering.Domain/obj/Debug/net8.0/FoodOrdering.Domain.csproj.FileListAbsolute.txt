@@ -9,3 +9,4 @@ E:\Web Development\TaskInterv\FoodOrderingSolution\FoodOrdering.Domain\obj\Debug
 E:\Web Development\TaskInterv\FoodOrderingSolution\FoodOrdering.Domain\obj\Debug\net8.0\refint\FoodOrdering.Domain.dll
 E:\Web Development\TaskInterv\FoodOrderingSolution\FoodOrdering.Domain\obj\Debug\net8.0\FoodOrdering.Domain.pdb
 E:\Web Development\TaskInterv\FoodOrderingSolution\FoodOrdering.Domain\obj\Debug\net8.0\ref\FoodOrdering.Domain.dll
+E:\Web Development\TaskInterv\FoodOrderingSolution\FoodOrdering.Domain\obj\Debug\net8.0\FoodOrdering.Domain.sourcelink.json

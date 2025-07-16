@@ -25,6 +25,15 @@ namespace FoodOrdering.API
             builder.Services.AddScoped<IOrderService, OrderService>();
             builder.Services.AddScoped<IOrderItemService, OrderItemService>();
             builder.Services.AddScoped<IStatisticsService, StatisticsService>();
+            builder.Services.AddCors(options =>
+            {
+                options.AddPolicy("AllowAll", policy =>
+                {
+                    policy.AllowAnyOrigin()
+                          .AllowAnyHeader()
+                          .AllowAnyMethod();
+                });
+            });
 
             builder.Services.AddControllers(); 
             builder.Services.AddEndpointsApiExplorer();
@@ -40,6 +49,8 @@ namespace FoodOrdering.API
             }
 
             app.UseHttpsRedirection();
+            app.UseCors("AllowAll");
+            app.UseStaticFiles();
             app.UseAuthorization();
 
             app.MapControllers(); 

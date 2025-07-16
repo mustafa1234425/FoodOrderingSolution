@@ -175,3 +175,6 @@ E:\Web Development\TaskInterv\FoodOrderingSolution\FoodOrdering.API\obj\Debug\ne
 E:\Web Development\TaskInterv\FoodOrderingSolution\FoodOrdering.API\obj\Debug\net8.0\FoodOrdering.API.pdb
 E:\Web Development\TaskInterv\FoodOrderingSolution\FoodOrdering.API\obj\Debug\net8.0\FoodOrdering.API.genruntimeconfig.cache
 E:\Web Development\TaskInterv\FoodOrderingSolution\FoodOrdering.API\obj\Debug\net8.0\ref\FoodOrdering.API.dll
+E:\Web Development\TaskInterv\FoodOrderingSolution\FoodOrdering.API\obj\Debug\net8.0\FoodOrdering.API.sourcelink.json
+E:\Web Development\TaskInterv\FoodOrderingSolution\FoodOrdering.API\obj\Debug\net8.0\FoodOrdering.API.MvcApplicationPartsAssemblyInfo.cs
+E:\Web Development\TaskInterv\FoodOrderingSolution\FoodOrdering.API\bin\Debug\net8.0\FoodOrdering.API.staticwebassets.runtime.json

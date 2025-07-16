@@ -1324,22 +1324,23 @@
         "additionalProperties": false
       },
       "CreateOrderDto": {
-        "required": [
-          "customerId",
-          "orderDate"
-        ],
         "type": "object",
         "properties": {
-          "customerId": {
+          "customer": {
+            "$ref": "#/components/schemas/CustomerDto"
+          },
+          "restaurantId": {
             "type": "integer",
             "format": "int32"
           },
-          "orderDate": {
-            "type": "string",
-            "format": "date-time"
+          "items": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/OrderItemDto"
+            },
+            "nullable": true
           },
-          "totalAmount": {
-            "minimum": 0.01,
+          "totalPrice": {
             "type": "number",
             "format": "double"
           }
@@ -1378,6 +1379,7 @@
       "CreateRestaurantDto": {
         "required": [
           "cityId",
+          "description",
           "restaurantName"
         ],
         "type": "object",
@@ -1387,9 +1389,17 @@
             "minLength": 0,
             "type": "string"
           },
+          "description": {
+            "type": "string",
+            "nullable": true
+          },
           "cityId": {
             "type": "integer",
             "format": "int32"
+          },
+          "imageUrl": {
+            "type": "string",
+            "nullable": true
           }
         },
         "additionalProperties": false
@@ -1459,9 +1469,10 @@
           },
           "orderDate": {
             "type": "string",
-            "format": "date-time"
+            "format": "date-time",
+            "nullable": true
           },
-          "totalAmount": {
+          "totalPrice": {
             "type": "number",
             "format": "double"
           }
@@ -1495,6 +1506,9 @@
         "additionalProperties": false
       },
       "RestaurantDto": {
+        "required": [
+          "description"
+        ],
         "type": "object",
         "properties": {
           "restaurantId": {
@@ -1505,9 +1519,17 @@
             "type": "string",
             "nullable": true
           },
+          "description": {
+            "type": "string",
+            "nullable": true
+          },
           "cityId": {
             "type": "integer",
             "format": "int32",
+            "nullable": true
+          },
+          "imageUrl": {
+            "type": "string",
             "nullable": true
           }
         },
@@ -1605,7 +1627,7 @@
             "type": "string",
             "format": "date-time"
           },
-          "totalAmount": {
+          "totalPrice": {
             "minimum": 0.01,
             "type": "number",
             "format": "double"
@@ -1650,6 +1672,7 @@
       "UpdateRestaurantDto": {
         "required": [
           "cityId",
+          "description",
           "restaurantId",
           "restaurantName"
         ],
@@ -1664,9 +1687,17 @@
             "minLength": 0,
             "type": "string"
           },
+          "description": {
+            "type": "string",
+            "nullable": true
+          },
           "cityId": {
             "type": "integer",
             "format": "int32"
+          },
+          "imageUrl": {
+            "type": "string",
+            "nullable": true
           }
         },
         "additionalProperties": false

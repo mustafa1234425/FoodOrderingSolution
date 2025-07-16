@@ -1,7 +1,16 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "E:\\Web Development\\TaskInterv\\FoodOrderingSolution\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{46C211ED-FA27-43E6-ABA1-404F37E31C0E}|FoodOrdering.Application\\FoodOrdering.Application.csproj|e:\\web development\\taskinterv\\foodorderingsolution\\foodordering.application\\services\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{46C211ED-FA27-43E6-ABA1-404F37E31C0E}|FoodOrdering.Application\\FoodOrdering.Application.csproj|solutionrelative:foodordering.application\\services\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46C211ED-FA27-43E6-ABA1-404F37E31C0E}|FoodOrdering.Application\\FoodOrdering.Application.csproj|e:\\web development\\taskinterv\\foodorderingsolution\\foodordering.application\\dtos\\createorderdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{46C211ED-FA27-43E6-ABA1-404F37E31C0E}|FoodOrdering.Application\\FoodOrdering.Application.csproj|solutionrelative:foodordering.application\\dtos\\createorderdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,7 +18,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -22,6 +31,32 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CreateOrderDto.cs",
+              "DocumentMoniker": "E:\\Web Development\\TaskInterv\\FoodOrderingSolution\\FoodOrdering.Application\\DTOs\\CreateOrderDto.cs",
+              "RelativeDocumentMoniker": "FoodOrdering.Application\\DTOs\\CreateOrderDto.cs",
+              "ToolTip": "E:\\Web Development\\TaskInterv\\FoodOrderingSolution\\FoodOrdering.Application\\DTOs\\CreateOrderDto.cs",
+              "RelativeToolTip": "FoodOrdering.Application\\DTOs\\CreateOrderDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-16T19:47:18.095Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "OrderService.cs",
+              "DocumentMoniker": "E:\\Web Development\\TaskInterv\\FoodOrderingSolution\\FoodOrdering.Application\\Services\\OrderService.cs",
+              "RelativeDocumentMoniker": "FoodOrdering.Application\\Services\\OrderService.cs",
+              "ToolTip": "E:\\Web Development\\TaskInterv\\FoodOrderingSolution\\FoodOrdering.Application\\Services\\OrderService.cs",
+              "RelativeToolTip": "FoodOrdering.Application\\Services\\OrderService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-16T19:35:12.912Z",
+              "EditorCaption": ""
             }
           ]
         }

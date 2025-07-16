@@ -1,13 +1,10 @@
-﻿using System.ComponentModel.DataAnnotations;
-
-public class CreateOrderDto
+﻿namespace FoodOrdering.Application.DTOs
 {
-    [Required]
-    public int CustomerId { get; set; }
-
-    [Required]
-    public DateTime OrderDate { get; set; }
-
-    [Range(0.01, double.MaxValue)]
-    public decimal TotalAmount { get; set; }
+    public class CreateOrderDto
+    {
+        public CustomerDto Customer { get; set; } = null!;
+        public int RestaurantId { get; set; }
+        public List<OrderItemDto> Items { get; set; } = new();
+        public decimal TotalPrice { get; set; }
+    }
 }

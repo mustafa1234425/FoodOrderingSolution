@@ -17,3 +17,4 @@ E:\Web Development\TaskInterv\FoodOrderingSolution\FoodOrdering.Persistence\obj\
 E:\Web Development\TaskInterv\FoodOrderingSolution\FoodOrdering.Persistence\obj\Debug\net8.0\FoodOrdering.Persistence.pdb
 E:\Web Development\TaskInterv\FoodOrderingSolution\FoodOrdering.Persistence\obj\Debug\net8.0\FoodOrdering.Persistence.genruntimeconfig.cache
 E:\Web Development\TaskInterv\FoodOrderingSolution\FoodOrdering.Persistence\obj\Debug\net8.0\ref\FoodOrdering.Persistence.dll
+E:\Web Development\TaskInterv\FoodOrderingSolution\FoodOrdering.Persistence\obj\Debug\net8.0\FoodOrdering.Persistence.sourcelink.json

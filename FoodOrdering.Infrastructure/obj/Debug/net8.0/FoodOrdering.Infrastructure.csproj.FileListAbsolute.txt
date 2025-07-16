@@ -15,3 +15,4 @@ E:\Web Development\TaskInterv\FoodOrderingSolution\FoodOrdering.Infrastructure\o
 E:\Web Development\TaskInterv\FoodOrderingSolution\FoodOrdering.Infrastructure\obj\Debug\net8.0\refint\FoodOrdering.Infrastructure.dll
 E:\Web Development\TaskInterv\FoodOrderingSolution\FoodOrdering.Infrastructure\obj\Debug\net8.0\FoodOrdering.Infrastructure.pdb
 E:\Web Development\TaskInterv\FoodOrderingSolution\FoodOrdering.Infrastructure\obj\Debug\net8.0\ref\FoodOrdering.Infrastructure.dll
+E:\Web Development\TaskInterv\FoodOrderingSolution\FoodOrdering.Infrastructure\obj\Debug\net8.0\FoodOrdering.Infrastructure.sourcelink.json

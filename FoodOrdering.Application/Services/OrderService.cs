@@ -20,9 +20,9 @@ namespace FoodOrdering.Application.Services
                 .Select(o => new OrderDto
                 {
                     OrderId = o.OrderId,
-                    CustomerId = o.CustomerId ?? 0, // استخدم 0 كقيمة افتراضية أو حسب منطق التطبيق
+                    CustomerId = o.CustomerId ?? 0,
                     OrderDate = o.OrderDate ?? DateTime.Now,
-                    TotalAmount = o.TotalPrice
+                    TotalPrice = o.TotalPrice
                 })
                 .ToListAsync();
         }
@@ -37,17 +37,39 @@ namespace FoodOrdering.Application.Services
                 OrderId = order.OrderId,
                 CustomerId = order.CustomerId ?? 0,
                 OrderDate = order.OrderDate ?? DateTime.Now,
-                TotalAmount = order.TotalPrice
+                TotalPrice = order.TotalPrice
             };
         }
 
         public async Task<OrderDto> AddOrderAsync(CreateOrderDto dto)
         {
+            Customer customer;
+
+            // Check if customer already exists by email or phone
+            customer = await _context.Customer.FirstOrDefaultAsync(x =>
+                x.Email == dto.Customer.Email || x.Phone == dto.Customer.Phone);
+
+            if (customer == null)
+            {
+                // Create new customer since none exists
+                customer = new Customer
+                {
+                    FullName = dto.Customer.FullName,
+                    Phone = dto.Customer.Phone,
+                    Email = dto.Customer.Email,
+                    Address = dto.Customer.Address
+                };
+
+                _context.Customer.Add(customer);
+                await _context.SaveChangesAsync();
+            }
+
+            // Create order with the customer ID (either existing or newly created)
             var order = new Order
             {
-                CustomerId = dto.CustomerId,
-                OrderDate = dto.OrderDate,
-                TotalPrice = dto.TotalAmount
+                CustomerId = customer.CustomerId,
+                OrderDate = DateTime.Now,
+                TotalPrice = dto.TotalPrice
             };
 
             _context.Order.Add(order);
@@ -57,8 +79,8 @@ namespace FoodOrdering.Application.Services
             {
                 OrderId = order.OrderId,
                 CustomerId = order.CustomerId ?? 0,
-                OrderDate = order.OrderDate ?? DateTime.Now,
-                TotalAmount = order.TotalPrice
+                OrderDate = order.OrderDate,
+                TotalPrice = order.TotalPrice
             };
         }
 
@@ -68,8 +90,8 @@ namespace FoodOrdering.Application.Services
             if (order == null) return false;
 
             order.CustomerId = dto.CustomerId;
-            order.OrderDate = dto.OrderDate;
-            order.TotalPrice = dto.TotalAmount;
+            order.OrderDate = dto.OrderDate ?? DateTime.Now;
+            order.TotalPrice = dto.TotalPrice;
 
             await _context.SaveChangesAsync();
             return true;

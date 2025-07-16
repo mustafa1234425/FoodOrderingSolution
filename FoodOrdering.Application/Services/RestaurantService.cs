@@ -27,7 +27,9 @@ public class RestaurantService : IRestaurantService
             {
                 RestaurantId = r.RestaurantId,
                 RestaurantName = r.Name,
-                CityId = r.CityId
+                CityId = r.CityId,
+                Description = r.Description,
+                ImageUrl = r.ImageUrl
             })
             .ToListAsync();
     }
@@ -41,7 +43,9 @@ public class RestaurantService : IRestaurantService
         {
             RestaurantId = r.RestaurantId,
             RestaurantName = r.Name,
-            CityId = r.CityId
+            CityId = r.CityId,
+            Description = r.Description,
+            ImageUrl = r.ImageUrl
         };
     }
 
@@ -50,7 +54,9 @@ public class RestaurantService : IRestaurantService
         var restaurant = new Restaurant
         {
             Name = dto.RestaurantName,
-            CityId = dto.CityId
+            CityId = dto.CityId,
+            Description = dto.Description,
+            ImageUrl = dto.ImageUrl
         };
 
         _context.Restaurant.Add(restaurant);
@@ -60,7 +66,9 @@ public class RestaurantService : IRestaurantService
         {
             RestaurantId = restaurant.RestaurantId,
             RestaurantName = restaurant.Name,
-            CityId = restaurant.CityId
+            CityId = restaurant.CityId,
+            Description = restaurant.Description,
+            ImageUrl = restaurant.ImageUrl
         };
     }
 
@@ -71,6 +79,8 @@ public class RestaurantService : IRestaurantService
 
         existing.Name = dto.RestaurantName;
         existing.CityId = dto.CityId;
+        existing.Description = dto.Description;
+        existing.ImageUrl = dto.ImageUrl;
 
         await _context.SaveChangesAsync();
         return true;

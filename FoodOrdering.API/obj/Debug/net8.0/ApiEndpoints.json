@@ -361,7 +361,7 @@
     "Parameters": [
       {
         "Name": "dto",
-        "Type": "CreateOrderDto",
+        "Type": "FoodOrdering.Application.DTOs.CreateOrderDto",
         "IsRequired": true
       }
     ],
