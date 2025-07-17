@@ -1319,6 +1319,10 @@
           "restaurantId": {
             "type": "integer",
             "format": "int32"
+          },
+          "imageUrl": {
+            "type": "string",
+            "nullable": true
           }
         },
         "additionalProperties": false
@@ -1452,6 +1456,10 @@
           "restaurantId": {
             "type": "integer",
             "format": "int32"
+          },
+          "imageUrl": {
+            "type": "string",
+            "nullable": true
           }
         },
         "additionalProperties": false
@@ -1603,6 +1611,10 @@
           "restaurantId": {
             "type": "integer",
             "format": "int32"
+          },
+          "imageUrl": {
+            "type": "string",
+            "nullable": true
           }
         },
         "additionalProperties": false

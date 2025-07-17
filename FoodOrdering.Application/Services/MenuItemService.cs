@@ -23,7 +23,8 @@ namespace FoodOrdering.Application.Services
                     ItemName = m.Name,
                     Description = m.Description,
                     Price = m.Price,
-                    RestaurantId = m.RestaurantId ?? 0
+                    RestaurantId = m.RestaurantId ?? 0,
+                    ImageUrl = m.ImageUrl
                 })
                 .ToListAsync();
         }
@@ -39,7 +40,8 @@ namespace FoodOrdering.Application.Services
                 ItemName = item.Name,
                 Description = item.Description,
                 Price = item.Price,
-                RestaurantId = item.RestaurantId ?? 0
+                RestaurantId = item.RestaurantId ?? 0,
+                ImageUrl = item.ImageUrl
             };
         }
 
@@ -50,7 +52,8 @@ namespace FoodOrdering.Application.Services
                 Name = dto.ItemName,
                 Description = dto.Description,
                 Price = dto.Price,
-                RestaurantId = dto.RestaurantId
+                RestaurantId = dto.RestaurantId,
+                ImageUrl = dto.ImageUrl
             };
 
             _context.MenuItem.Add(menuItem);
@@ -62,7 +65,8 @@ namespace FoodOrdering.Application.Services
                 ItemName = menuItem.Name,
                 Description = menuItem.Description,
                 Price = menuItem.Price,
-                RestaurantId = menuItem.RestaurantId ?? 0
+                RestaurantId = menuItem.RestaurantId ?? 0,
+                ImageUrl= menuItem.ImageUrl
             };
         }
 
@@ -75,6 +79,7 @@ namespace FoodOrdering.Application.Services
             menuItem.Description = dto.Description;
             menuItem.Price = dto.Price;
             menuItem.RestaurantId = dto.RestaurantId;
+            menuItem.ImageUrl = dto.ImageUrl;
 
             await _context.SaveChangesAsync();
             return true;
@@ -100,7 +105,8 @@ namespace FoodOrdering.Application.Services
                     ItemName = m.Name,
                     Description = m.Description,
                     Price = m.Price,
-                    RestaurantId = m.RestaurantId?? 0
+                    RestaurantId = m.RestaurantId?? 0,
+                    ImageUrl = m.ImageUrl
                 })
                 .ToListAsync();
         }

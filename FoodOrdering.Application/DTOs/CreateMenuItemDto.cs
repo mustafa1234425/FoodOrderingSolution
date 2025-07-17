@@ -13,4 +13,5 @@ public class CreateMenuItemDto
 
     [Required]
     public int RestaurantId { get; set; }
+    public string ImageUrl { get; set; } = string.Empty;
 }
